@@ -13,6 +13,7 @@
 		C5D74EB52875009B00925C47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5D74EB32875009B00925C47 /* Main.storyboard */; };
 		C5D74EB72875009D00925C47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5D74EB62875009D00925C47 /* Assets.xcassets */; };
 		C5D74EBA2875009D00925C47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5D74EB82875009D00925C47 /* LaunchScreen.storyboard */; };
+		C5D74EC62875038100925C47 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = C5D74EC52875038100925C47 /* .swiftlint.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C5D74EB62875009D00925C47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5D74EB92875009D00925C47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C5D74EBB2875009D00925C47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5D74EC52875038100925C47 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		C5D74EAC2875009B00925C47 /* CCC-1st-Toss-Eunice */ = {
 			isa = PBXGroup;
 			children = (
+				C5D74EC52875038100925C47 /* .swiftlint.yml */,
 				C5D74EAD2875009B00925C47 /* AppDelegate.swift */,
 				C5D74EAF2875009B00925C47 /* SceneDelegate.swift */,
 				C5D74EB12875009B00925C47 /* ViewController.swift */,
@@ -126,6 +129,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5D74EC62875038100925C47 /* .swiftlint.yml in Resources */,
 				C5D74EBA2875009D00925C47 /* LaunchScreen.storyboard in Resources */,
 				C5D74EB72875009D00925C47 /* Assets.xcassets in Resources */,
 				C5D74EB52875009B00925C47 /* Main.storyboard in Resources */,
