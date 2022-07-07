@@ -14,6 +14,7 @@
 		C5D74EB72875009D00925C47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5D74EB62875009D00925C47 /* Assets.xcassets */; };
 		C5D74EBA2875009D00925C47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5D74EB82875009D00925C47 /* LaunchScreen.storyboard */; };
 		C5D74EC62875038100925C47 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = C5D74EC52875038100925C47 /* .swiftlint.yml */; };
+		C5E077DD2876701600673325 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E077DC2876701600673325 /* TabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		C5D74EB92875009D00925C47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C5D74EBB2875009D00925C47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5D74EC52875038100925C47 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		C5E077DC2876701600673325 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				C5D74EB62875009D00925C47 /* Assets.xcassets */,
 				C5D74EB82875009D00925C47 /* LaunchScreen.storyboard */,
 				C5D74EBB2875009D00925C47 /* Info.plist */,
+				C5E077DC2876701600673325 /* TabBarViewController.swift */,
 			);
 			path = "CCC-1st-Toss-Eunice";
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5E077DD2876701600673325 /* TabBarViewController.swift in Sources */,
 				C5D74EB22875009B00925C47 /* ViewController.swift in Sources */,
 				C5D74EAE2875009B00925C47 /* AppDelegate.swift in Sources */,
 				C5D74EB02875009B00925C47 /* SceneDelegate.swift in Sources */,

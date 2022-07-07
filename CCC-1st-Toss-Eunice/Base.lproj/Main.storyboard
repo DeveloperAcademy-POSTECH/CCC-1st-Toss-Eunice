@@ -90,14 +90,13 @@
             </objects>
             <point key="canvasLocation" x="2572.463768115942" y="-237.05357142857142"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Tab Bar View Controller-->
         <scene sceneID="GP6-5h-E7v">
             <objects>
-                <tabBarController id="Fco-ML-cPX" sceneMemberID="viewController">
+                <tabBarController id="Fco-ML-cPX" customClass="TabBarViewController" customModule="CCC_1st_Toss_Eunice" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="FOC-x1-TTh">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="tintColor" systemColor="separatorColor"/>
                         <color key="barTintColor" systemColor="systemBackgroundColor"/>
                     </tabBar>
@@ -172,7 +171,6 @@
         <image name="hexagon.fill" catalog="system" width="128" height="124"/>
         <image name="house.fill" catalog="system" width="128" height="106"/>
         <image name="line.3.horizontal" catalog="system" width="128" height="64"/>
-        <image name="line.3.horizontal" width="128" height="128"/>
         <image name="message.fill" catalog="system" width="128" height="113"/>
         <image name="pentagon.fill" catalog="system" width="128" height="113"/>
         <systemColor name="secondaryLabelColor">
