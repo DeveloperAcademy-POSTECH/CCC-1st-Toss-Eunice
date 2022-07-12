@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C512F332287D400A0081D409 /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = C512F331287D400A0081D409 /* Cards.swift */; };
+		C5594365287C1AE3006AE787 /* CustomCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5594364287C1AE3006AE787 /* CustomCollectionViewController.swift */; };
 		C5D74EAE2875009B00925C47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D74EAD2875009B00925C47 /* AppDelegate.swift */; };
 		C5D74EB02875009B00925C47 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D74EAF2875009B00925C47 /* SceneDelegate.swift */; };
-		C5D74EB22875009B00925C47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D74EB12875009B00925C47 /* ViewController.swift */; };
 		C5D74EB52875009B00925C47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5D74EB32875009B00925C47 /* Main.storyboard */; };
 		C5D74EB72875009D00925C47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5D74EB62875009D00925C47 /* Assets.xcassets */; };
 		C5D74EBA2875009D00925C47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5D74EB82875009D00925C47 /* LaunchScreen.storyboard */; };
@@ -18,10 +19,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C512F331287D400A0081D409 /* Cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cards.swift; sourceTree = "<group>"; };
+		C5594364287C1AE3006AE787 /* CustomCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewController.swift; sourceTree = "<group>"; };
 		C5D74EAA2875009B00925C47 /* CCC-1st-Toss-Eunice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CCC-1st-Toss-Eunice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5D74EAD2875009B00925C47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C5D74EAF2875009B00925C47 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C5D74EB12875009B00925C47 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C5D74EB42875009B00925C47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C5D74EB62875009D00925C47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5D74EB92875009D00925C47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -41,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C512F330287D3F960081D409 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C512F331287D400A0081D409 /* Cards.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		C5D74EA12875009B00925C47 = {
 			isa = PBXGroup;
 			children = (
@@ -60,15 +70,16 @@
 		C5D74EAC2875009B00925C47 /* CCC-1st-Toss-Eunice */ = {
 			isa = PBXGroup;
 			children = (
-				C5D74EC52875038100925C47 /* .swiftlint.yml */,
+				C512F330287D3F960081D409 /* Models */,
 				C5D74EAD2875009B00925C47 /* AppDelegate.swift */,
 				C5D74EAF2875009B00925C47 /* SceneDelegate.swift */,
-				C5D74EB12875009B00925C47 /* ViewController.swift */,
 				C5D74EB32875009B00925C47 /* Main.storyboard */,
 				C5D74EB62875009D00925C47 /* Assets.xcassets */,
 				C5D74EB82875009D00925C47 /* LaunchScreen.storyboard */,
 				C5D74EBB2875009D00925C47 /* Info.plist */,
 				C5E077DC2876701600673325 /* TabBarViewController.swift */,
+				C5D74EC52875038100925C47 /* .swiftlint.yml */,
+				C5594364287C1AE3006AE787 /* CustomCollectionViewController.swift */,
 			);
 			path = "CCC-1st-Toss-Eunice";
 			sourceTree = "<group>";
@@ -167,8 +178,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C512F332287D400A0081D409 /* Cards.swift in Sources */,
 				C5E077DD2876701600673325 /* TabBarViewController.swift in Sources */,
-				C5D74EB22875009B00925C47 /* ViewController.swift in Sources */,
+				C5594365287C1AE3006AE787 /* CustomCollectionViewController.swift in Sources */,
 				C5D74EAE2875009B00925C47 /* AppDelegate.swift in Sources */,
 				C5D74EB02875009B00925C47 /* SceneDelegate.swift in Sources */,
 			);
