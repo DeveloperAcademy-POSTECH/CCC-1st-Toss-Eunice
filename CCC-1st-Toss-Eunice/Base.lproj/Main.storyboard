@@ -42,10 +42,10 @@
             </objects>
             <point key="canvasLocation" x="1662" y="400"/>
         </scene>
-        <!--Custom View Controller-->
+        <!--View Controller-->
         <scene sceneID="9QS-6P-VSi">
             <objects>
-                <viewController id="VaN-cg-Aog" customClass="CustomViewController" customModule="CCC_1st_Toss_Eunice" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="VaN-cg-Aog" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bE0-U9-anF">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -56,10 +56,10 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uz8-01-LAL">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="916"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="2hR-wQ-xsB">
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="2hR-wQ-xsB">
                                                 <rect key="frame" x="20" y="0.0" width="374" height="916"/>
                                                 <subviews>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GZt-df-hhh">
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GZt-df-hhh" customClass="CardView" customModule="CCC_1st_Toss_Eunice" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="0.0" width="374" height="300"/>
                                                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                                         <constraints>
@@ -136,6 +136,9 @@
                             </barButtonItem>
                         </rightBarButtonItems>
                     </navigationItem>
+                    <connections>
+                        <outlet property="TossBankBox" destination="GZt-df-hhh" id="cVt-KF-c7u"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vY3-yr-CS6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
