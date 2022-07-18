@@ -10,8 +10,11 @@
 		C512F332287D400A0081D409 /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = C512F331287D400A0081D409 /* Cards.swift */; };
 		C512F33A287F00C20081D409 /* reference.txt in Resources */ = {isa = PBXBuildFile; fileRef = C512F339287F00C20081D409 /* reference.txt */; };
 		C5767F162884578E006E5991 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5767F152884578E006E5991 /* CardView.swift */; };
+		C5767F1D28854ED1006E5991 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5767F1C28854ED1006E5991 /* Model.swift */; };
+		C5767F212885724E006E5991 /* TossMockupData.json in Resources */ = {isa = PBXBuildFile; fileRef = C5767F1E28854EE8006E5991 /* TossMockupData.json */; };
 		C5D74EAE2875009B00925C47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D74EAD2875009B00925C47 /* AppDelegate.swift */; };
 		C5D74EB02875009B00925C47 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D74EAF2875009B00925C47 /* SceneDelegate.swift */; };
+		C5D74EB22875009B00925C47 /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D74EB12875009B00925C47 /* CustomViewController.swift */; };
 		C5D74EB52875009B00925C47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5D74EB32875009B00925C47 /* Main.storyboard */; };
 		C5D74EB72875009D00925C47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5D74EB62875009D00925C47 /* Assets.xcassets */; };
 		C5D74EBA2875009D00925C47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5D74EB82875009D00925C47 /* LaunchScreen.storyboard */; };
@@ -23,9 +26,12 @@
 		C512F331287D400A0081D409 /* Cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cards.swift; sourceTree = "<group>"; };
 		C512F339287F00C20081D409 /* reference.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = reference.txt; sourceTree = "<group>"; };
 		C5767F152884578E006E5991 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		C5767F1C28854ED1006E5991 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		C5767F1E28854EE8006E5991 /* TossMockupData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = TossMockupData.json; sourceTree = "<group>"; };
 		C5D74EAA2875009B00925C47 /* CCC-1st-Toss-Eunice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CCC-1st-Toss-Eunice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5D74EAD2875009B00925C47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C5D74EAF2875009B00925C47 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C5D74EB12875009B00925C47 /* CustomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewController.swift; sourceTree = "<group>"; };
 		C5D74EB42875009B00925C47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C5D74EB62875009D00925C47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5D74EB92875009D00925C47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -75,6 +81,7 @@
 				C512F330287D3F960081D409 /* Models */,
 				C5D74EAD2875009B00925C47 /* AppDelegate.swift */,
 				C5D74EAF2875009B00925C47 /* SceneDelegate.swift */,
+				C5D74EB12875009B00925C47 /* CustomViewController.swift */,
 				C5D74EB32875009B00925C47 /* Main.storyboard */,
 				C5D74EB62875009D00925C47 /* Assets.xcassets */,
 				C5D74EB82875009D00925C47 /* LaunchScreen.storyboard */,
@@ -83,6 +90,8 @@
 				C5D74EC52875038100925C47 /* .swiftlint.yml */,
 				C512F339287F00C20081D409 /* reference.txt */,
 				C5767F152884578E006E5991 /* CardView.swift */,
+				C5767F1C28854ED1006E5991 /* Model.swift */,
+				C5767F1E28854EE8006E5991 /* TossMockupData.json */,
 			);
 			path = "CCC-1st-Toss-Eunice";
 			sourceTree = "<group>";
@@ -146,6 +155,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5767F212885724E006E5991 /* TossMockupData.json in Resources */,
 				C5D74EC62875038100925C47 /* .swiftlint.yml in Resources */,
 				C5D74EBA2875009D00925C47 /* LaunchScreen.storyboard in Resources */,
 				C5D74EB72875009D00925C47 /* Assets.xcassets in Resources */,
@@ -184,6 +194,8 @@
 			files = (
 				C512F332287D400A0081D409 /* Cards.swift in Sources */,
 				C5E077DD2876701600673325 /* TabBarViewController.swift in Sources */,
+				C5767F1D28854ED1006E5991 /* Model.swift in Sources */,
+				C5D74EB22875009B00925C47 /* CustomViewController.swift in Sources */,
 				C5D74EAE2875009B00925C47 /* AppDelegate.swift in Sources */,
 				C5767F162884578E006E5991 /* CardView.swift in Sources */,
 				C5D74EB02875009B00925C47 /* SceneDelegate.swift in Sources */,

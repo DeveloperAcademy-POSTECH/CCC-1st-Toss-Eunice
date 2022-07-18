@@ -1,0 +1,58 @@
+{
+	"sections": [
+		{"title": "토스뱅크"},
+		{
+			"title": "자산", 
+			"row": [
+				{
+					"image": "message.circle.fill",
+					"subtitle": "토스뱅크 통장",
+					"balance": "1000000", 
+					"button": "송금"
+				},
+				{
+					"image": "message.circle.fill",
+					"subtitle": "신한 주거래 우대통장 \n(저축예금)",
+					"balance": "1000000",
+					"button": "송금"
+				}
+			]
+		},
+		{"title": "소비",
+			"row": [
+				{
+					"image": "lanyardcard.fill",
+					"subtitle": "이번달 쓴 금액",
+					"balance": "500000", 
+					"button": "내역"
+				},
+				{
+					"image": "square.fill",
+					"subtitle": "X월 X일 낼 카드값",
+					"balance": "500000"
+				}				
+			]
+		}
+	],
+	"cards": [
+		{
+			"subtitle" : "1분 안에",
+			"title" : "내 보험\n전부 조회",
+			"image" : "person.crop.circle"
+		},
+		{
+			"subtitle" : "혜택 주는",
+			"title" : "차 보험료\n조회",
+			"image" : "car.fill"
+		},
+		{
+			"subtitle" : "최근",
+			"title" : "카드 혜택\n받기",
+			"image" : "lanyardcard.fill"
+		},
+		{
+			"subtitle" : "인기",
+			"title" : "더보기"
+		}	
+	]
+}
